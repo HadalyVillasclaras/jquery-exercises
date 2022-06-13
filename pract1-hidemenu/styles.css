@@ -13,32 +13,32 @@ html, body {
   }
   
   /* Header */
-  .header {
+  header {
     padding: 45px 0;
     background-color: #0074ff;
   }
   
-  .header ul {
+  header ul {
     list-style: none;
     padding: 0;
   }
   
-  .header li {
+  header li {
     display: inline;
     line-height: 30px;
   }
   
-  .header li + li {
+  header li + li {
     margin-left: 30px;
   }
   
-  .header h1 {
+  header h1 {
     margin: 0;
     font-size: 20px;
     color: #fff;
   }
   
-  .header h3 {
+  header h3 {
     color: #fff;
     font-size: 14px;
     display: inline-block;
@@ -47,21 +47,23 @@ html, body {
     cursor: pointer;
   }
   
-  .header .dropdown {
+  header .dropdown {
     position: relative;
   }
   
-  .header .dropdown-menu {
+  header .dropdown-menu {
     position: absolute;
     top: 20px;
     border-radius: 0;
   }
   
-  .header .dropdown-menu li {
+  header .dropdown-menu li {
     display: block;
     margin: 0;
     padding: 3px 10px;
   }
+
+ 
   
   /* Main */
   .main {
@@ -72,7 +74,7 @@ html, body {
   }
   
   /* Footer */
-  .footer {
+  footer {
     background-color: #0074ff;
     padding: 20px 0;
     height: 200px;
@@ -80,12 +82,12 @@ html, body {
   
   
   @media (max-width: 1024px) { 
-    .header h1 { 
+    header h1 { 
       width: 100%; 
       text-align: center; 
     } 
   
-    .pull-right { 
+    nav { 
       float: none !important; 
       margin: 20px auto 0; 
       width: 225px;

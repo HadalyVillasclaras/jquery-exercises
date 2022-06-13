@@ -9,7 +9,17 @@ $(document).ready(() =>{
       $('#helpMenu').show();
     });
   
-    $('.dropdown-menu').on('mouseleave', ()=>{
+
+
+    $('.dropdown').on('mouseleave', ()=>{
+      $('.dropdown-menu').hide();
+    });
+
+    $('.dropdown').on('mouseleave', ()=>{
+      $('.dropdown-menu').hide();
+    });
+
+    $('.dropdown').on('mouseleave', ()=>{
       $('.dropdown-menu').hide();
     });
   
