@@ -14,11 +14,11 @@ html, body {
     margin: 0 auto;
   }
   
-  .header {
+  header {
     background-color: #19314D;
   }
   
-  .header h1 {
+  header h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 32px;
     font-weight: 200;
